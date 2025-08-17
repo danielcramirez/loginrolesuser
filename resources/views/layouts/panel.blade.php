@@ -40,9 +40,9 @@
                     <div class="nav-header">MENÚ</div>
                     <a href="/" class="nav-link active">Inicio</a>
                     <div class="nav-header mt-3">GESTIÓN</div>
-                    <a href="#" class="nav-link">Usuarios</a>
-                    <a href="#" class="nav-link">Roles</a>
-                    <a href="#" class="nav-link">Permisos</a>
+                    <a href="{{ route('users.index') }}" class="nav-link">Usuarios</a>
+                    <a href="{{ route('roles.index') }}" class="nav-link">Roles</a>
+                    <a href="{{ route('permissions.index') }}" class="nav-link">Permisos</a>
                     <div class="nav-header mt-3">OTROS</div>
                     <a href="#" class="nav-link">Configuración</a>
                 </div>
